@@ -78,3 +78,42 @@ nav img{
     font-size: 16px; 
     color: aliceblue;
 }
+
+/*------- jogging----------*/
+
+.soulier{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 120px;
+}
+.soulier h1{
+    font-size: 40px;
+}
+.soulier h3{
+    padding: 30px;
+    font-size: 28px;
+}
+.container_j{
+    display: flex;
+    position: center;
+}
+.e1{
+    width: 320px;
+    height: 180px;
+}
+.e2{
+    width: 300px;
+    height: 200px;
+}
+.e3{
+    width: 350px;
+    height: 250px;
+}
+
+.e4{
+    width: 350px;
+    height: 200px;
+}
+
+
