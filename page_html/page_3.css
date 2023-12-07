@@ -76,6 +76,13 @@ form {
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 900px;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+    
 }
 
 label {
@@ -104,4 +111,12 @@ button {
 
 button:hover {
     background-color: #45a049;
+}
+.ima1 {
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 200px;
+    border-radius: 60px;
 }
