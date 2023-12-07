@@ -116,7 +116,7 @@ h6{
     width: 20%;
     margin: 15px;
     box-sizing: border-box;
-    float: left;
+    float: center;
     text-align: center;
     border-radius: 15px;
     box-shadow: 0 15px 30px rgba(2, 2, 5, 0.2), 0 8px 10px rgba(2, 2, 5, 0.18);
@@ -161,4 +161,16 @@ h6{
     margin: 0 auto;
     display: block;
     border-radius: 15px;
+}
+
+.element ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 0;
+}
+.element li{
+    padding-top: 5px;
+    
 }
