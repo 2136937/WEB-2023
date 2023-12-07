@@ -116,4 +116,13 @@ nav img{
     height: 200px;
 }
 
+.ima1 {
+    position: absolute;
+    top: 65%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 200px;
+    border-radius: 60px;
+}
+
 

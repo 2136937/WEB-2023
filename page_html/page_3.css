@@ -7,7 +7,7 @@
 .header{
     min-height: 100vh;
     width: 100%;
-    background-image: linear-gradient(rgba(27,25,148,0.5), rgba(2, 2, 5, 0.2)), url(images/pexels-snapwire-618612.jpg) ;
+    background-image: linear-gradient(rgba(27,25,148,0.5), rgba(2, 2, 5, 0.2)), url(images/pexels-jeshootscom-7432.jpg) ;
     background-position: center;
     background-size: cover;
     position: relative;
@@ -60,19 +60,48 @@ nav img{
     width: 100%;
 }
 
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
 
-    .text_propos p{
-        margin: 15px 0 45px;
-    padding: 5px;
-    font-size: 16px; 
-    color: aliceblue;
-    text-align:center
-    }
-    .ima1 {
-        position: absolute;
-        top: 65%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        width: 200px;
-        border-radius: 60px;
-    }
+form {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+}
+
+input,
+textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 16px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    background-color: #4caf50;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
