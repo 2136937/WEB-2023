@@ -7,7 +7,7 @@
 .header{
     min-height: 100vh;
     width: 100%;
-    background-image: linear-gradient(rgba(27,25,148,0.5), rgba(2, 2, 5, 0.2)), url(images/pexels-snapwire-618612.jpg) ;
+    background-image: linear-gradient(rgba(27,25,148,0.5), rgba(2, 2, 5, 0.2)), url(images/sprint.png) ;
     background-position: center;
     background-size: cover;
     position: relative;
@@ -60,31 +60,16 @@ nav img{
     width: 100%;
 }
 
+.rectangle {
+    width: 400px;
+    height: 300px;
+    border: 2px solid #333;
+    padding: 10px;
+    margin: 20px;
+    background-color: aliceblue;
+    position: absolute;
+    top: 35%;
+    left: 80%;
+    transform: translate(-50%, -50%);
 
-    .text_propos p{
-        margin: 15px 0 45px;
-    padding: 5px;
-    font-size: 16px; 
-    color: aliceblue;
-    text-align:center
-    }
-    .ima1 {
-        position: absolute;
-        top: 65%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        width: 200px;
-        border-radius: 60px;
-    }
-.nike{
-    width: 80px;
-    padding-left: 10px;
-    padding-right: 10px;
-    
-}
-
-.onrun{
-    width: 70px;
-    padding-left: 10px;
-    padding-right: 10px;
 }
